@@ -1,0 +1,50 @@
+.main{
+  margin-top: 5%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textBox h1 {
+  font-size: 40px;
+  color: #11351e;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+}
+
+.animated {
+  background-color: #20412c;
+  color: #CDcce8;
+  width: 40%;
+  font-size: 30px;
+  animation: textAnimation 1s ease infinite;
+  margin-top: 0;
+  padding: 6px;
+}
+
+@keyframes textAnimation {
+  0% {
+    color: #CDcce8;
+    transform: scale(1);
+  }
+  50% {
+    color: rgb(175, 211, 99);
+    transform: scale(1.1);
+  }
+  100% {
+    color: #CDcce8;
+    transform: scale(1);
+  }
+}

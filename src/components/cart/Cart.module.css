@@ -1,0 +1,53 @@
+li{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #11351E;
+}
+
+.itemList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemList button{
+    padding: 10px;
+    margin: 5px;
+}
+
+.itemPrice{
+    font-weight: 700;
+    color: rgb(186, 32, 32);
+    margin: 0;
+}
+
+.quantity{
+    margin-left: 70px;
+    color: #11351E;
+    background-color: #CDCCE8;
+    padding: 2px 6px;
+}
+
+.totalAmount{
+    background-color: #11351E;
+    color: white;
+    padding: 0 25px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.closeOrClear{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.closeOrClear button{
+    margin-left: 10px;
+}
+
+.closeOrClear button:hover{
+    cursor: pointer;
+}
